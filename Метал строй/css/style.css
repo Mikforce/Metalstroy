@@ -47,7 +47,7 @@ height: 100vh;
 
 
 background:
-url('../img/abs.jpg') center
+url('../услуги/Welding-sparks.jpg') center
 no-repeat;
 -webkit-background-size: cover;
 background-size: cover;
@@ -60,7 +60,7 @@ background-size: cover;
   text-align: center;
 }
 .intro_title {
-  color: black;
+  color: yellow;
   font-size: 45px;
   font-weight: 700;
   text-transform: uppercase;
@@ -72,7 +72,7 @@ background-size: cover;
   display: block;
   width: 60px;
   height: 3px;
-  background-color: yellowgreen;
+  background-color: yellow;
   margin: 40px auto 40px;
 
 }
@@ -109,13 +109,13 @@ align-items: center;
 .header_logo {
 font-size: 30px;
 font-weight: 700;
-color: black;
+color: yellow;
 transition: color .1s linear;
 }
 
 
 .header_logo:hover {
-  color: yellowgreen;
+  color: red;
 }
 .header_logo:hover:after {
   opacity: 1;
@@ -140,7 +140,7 @@ text-transform: uppercase;
   vertical-align: top;
   margin: 0 15px;
 position: relative;
-  color: black;
+  color: yellow;
 text-decoration: none;
 
 transition: color .1s linear;
@@ -150,7 +150,7 @@ transition: color .1s linear;
   display: block;
   width: 100%;
   height: 3px;
-  background-color: yellowgreen;
+  background-color: red;
   opacity: 0;
   position: absolute;
   top: 100%;
@@ -160,7 +160,7 @@ transition: color .1s linear;
 
 }
 .nav_link:hover {
-  color: yellowgreen;
+  color: red;
 }
 .nav_link:hover:after {
   opacity: 1;
@@ -182,8 +182,8 @@ transition: color .1s linear;
   linear, color .1s linear;
 }
 .btn:hover {
-background-color: black;
-color: yellowgreen;
+background-color: yellow;
+color: red;
 }
 /*"mailto:novatorlen@gmail.com*/
 a[href^="mailto:"] {
@@ -206,7 +206,7 @@ linear, color .1s linear;
 }
 a[href^="mailto:"]:hover {
 background-color: black;
-color: yellowgreen;
+color: red;
 }
 
  .coll {
@@ -260,7 +260,7 @@ content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background-color: yellowgreen;
+  background-color: black;
   margin: 40px auto 40px;
 }
 
@@ -278,7 +278,7 @@ content: "";
  margin: auto;
   width: 300px;
   position: relative;
- background-color: yellowgreen;
+ background-color: yellow;
 
 }
 
@@ -298,7 +298,7 @@ opacity: .1;
 }
 
 .about_img {
-background: linear-gradient(to bottom, yellowgreen, Gray);
+background: linear-gradient(to bottom, yellow, Gray);
 transform: transform .2s liner;
 }
 
@@ -440,7 +440,7 @@ position: absolute;
 top: 0;
 left: 0;
 z-index: 2;
-background-color: rgba(154, 205, 50, .9);
+background-color: yellow;
 text-align: center;
 transition: opacity .2s linear;
 
@@ -533,7 +533,7 @@ color: #000;
   transition: fill .1s linear;
 }
 .social_item:hover {
-background-color: yellowgreen;
+background-color: yellow;
 
 }
 .social_item:hover .social_icon{
@@ -582,7 +582,7 @@ flex-direction: column;
 	position: relative;
   margin: 0px 0px 50 0px;
 	padding: 0px 0px 60% 0px;
-	
+
 }
  .item_video video {
 	 position: absolute;
@@ -708,8 +708,8 @@ font-weight: 300;
 
 .footer {
 
-  background-color: yellowgreen;
-	
+  background-color: yellow;
+
 }
 
 .footer_iner {
@@ -747,7 +747,7 @@ font-weight: 300;
 
 
 .copyright {
-  background-color: green;
+  background-color: red;
   padding: 20px 0;
 
 }
@@ -790,7 +790,7 @@ position: relative;
   width: 100%;
   height: 100%;
 
-  background-color: yellowgreen;
+  background-color: yellow;
 
   position: absolute;
   left: 0;
@@ -821,7 +821,7 @@ position: relative;
     width: 100%;
     flex-direction: column;
 
-    background-color: greenyellow;
+    background-color: yellow;
     text-align: right;
 
     position: absolute;
@@ -835,6 +835,7 @@ position: relative;
 
 .nav_link {
   padding: 9px 15px;
+  color: black;
 }
 
 
